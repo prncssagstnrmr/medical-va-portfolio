@@ -10,7 +10,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-8 py-4 flex justify-between">
 
           <h1 className="font-bold text-xl text-pink-600">
-            Princess Iane
+            Your Medical Virtual Assistant
           </h1>
 
 
