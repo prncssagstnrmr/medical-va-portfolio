@@ -290,15 +290,21 @@ export default function Home() {
     </div>
 
   </div>
-<div className="-mt-6 bg-white rounded-3xl shadow-lg border border-pink-100 p-6 grid md:grid-cols-4 gap-6">
+</section>
 
-  <div className="flex flex-col md:flex-row items-center gap-8">
+{/* HIPAA CERTIFICATE */}
+
+<section className="max-w-6xl mx-auto px-8 py-10">
+
+<div className="bg-white rounded-3xl shadow-lg border border-pink-100 p-10">
+
+  <div className="flex flex-col md:flex-row items-center gap-12">
 
     {/* Certificate Preview */}
     <img
       src="/images/hipaa-certificate.png"
       alt="HIPAA Certificate"
-      className="w-full md:w-72 rounded-xl shadow-md border"
+      className="w-full md:w-[220px] rounded-xl shadow-md border flex-shrink-0"
     />
 
     {/* Certificate Details */}

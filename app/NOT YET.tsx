@@ -290,19 +290,19 @@ export default function Home() {
     </div>
 
   </div>
-<div className="-mt-6 bg-white rounded-3xl shadow-lg border border-pink-100 p-6 grid md:grid-cols-4 gap-6">
-
-  <div className="flex flex-col md:flex-row items-center gap-8">
+<div className="mt-6 bg-white rounded-3xl shadow-lg border border-pink-100 p-6">
+  
+  <div className="flex flex-col md:flex-row items-center gap-10">
 
     {/* Certificate Preview */}
     <img
       src="/images/hipaa-certificate.png"
       alt="HIPAA Certificate"
-      className="w-full md:w-72 rounded-xl shadow-md border"
+      className="w-full md:w-[250px] rounded-xl shadow-md border flex-shrink-0"
     />
 
     {/* Certificate Details */}
-    <div>
+    <div className="flex-1 min-w-0">
 
       <p className="text-pink-600 uppercase tracking-widest font-semibold">
         Certification
@@ -312,7 +312,7 @@ export default function Home() {
         🏆 HIPAA Certified
       </h3>
 
-      <p className="mt-4 text-gray-600 leading-relaxed">
+      <p className="mt-5 text-gray-600 text-lg leading-8 max-w-3xl">
         Certified in HIPAA Privacy & Security compliance,
         demonstrating knowledge of patient confidentiality,
         protected health information (PHI), and healthcare
