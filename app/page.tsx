@@ -680,40 +680,53 @@ export default function Home() {
 
 
 
-      <form className="bg-white rounded-3xl p-8 space-y-4">
+      <form
+  action="https://formspree.io/f/xojokzpy"
+  method="POST"
+  className="bg-white rounded-3xl p-8 space-y-4"
+>
+  <h3 className="font-bold text-xl text-pink-600">
+    Send an Inquiry
+  </h3>
 
+  <input
+    className="w-full border rounded-xl p-3"
+    type="text"
+    name="name"
+    placeholder="Your Name"
+    required
+  />
 
-      <h3 className="font-bold text-xl text-pink-600">
-      Send an Inquiry
-      </h3>
+  <input
+    className="w-full border rounded-xl p-3"
+    type="email"
+    name="email"
+    placeholder="Email Address"
+    required
+  />
 
+  <input
+    className="w-full border rounded-xl p-3"
+    type="text"
+    name="company"
+    placeholder="Clinic / Company Name"
+  />
 
-      <input className="w-full border rounded-xl p-3"
-      placeholder="Your Name"/>
+  <textarea
+    className="w-full border rounded-xl p-3"
+    name="message"
+    rows={5}
+    placeholder="Your Message"
+    required
+  />
 
-
-      <input className="w-full border rounded-xl p-3"
-      placeholder="Email Address"/>
-
-
-      <input className="w-full border rounded-xl p-3"
-      placeholder="Clinic / Company Name"/>
-
-
-      <textarea
-      className="w-full border rounded-xl p-3"
-      rows={5}
-      placeholder="Your Message"/>
-
-
-      <button className="bg-pink-600 text-white px-8 py-3 rounded-full">
-
-      Send Inquiry
-
-      </button>
-
-
-      </form>
+  <button
+    type="submit"
+    className="bg-pink-600 text-white px-8 py-3 rounded-full"
+  >
+    Send Inquiry
+  </button>
+</form>
 
 
       </div>
