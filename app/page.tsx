@@ -142,6 +142,7 @@ export default function Home() {
 
     <h3 className="mt-7 text-2xl font-serif font-bold text-[#3a214f]">
   Princess Iane Agustin
+  
 </h3>
 
 <div className="my-3 flex items-center justify-center gap-3 text-pink-400">
