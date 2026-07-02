@@ -134,9 +134,11 @@ export default function Home() {
 
   <div className="relative text-center px-6">
 
-    <div className="w-20 h-20 rounded-full bg-pink-100 mx-auto flex items-center justify-center text-5xl">
-      👩🏻‍⚕️
-    </div>
+   <img
+  src="/images/princess.jpg"
+  alt="Princess Iane Agustin"
+  className="w-52 h-52 rounded-full object-cover object-center mx-auto border-[6px] border-pink-300 shadow-2xl"
+/>
 
     <h3 className="mt-7 text-2xl font-serif font-bold text-[#3a214f]">
   Princess Iane Agustin
@@ -152,11 +154,7 @@ export default function Home() {
   Medical Virtual Assistant
 </p>
 
-    <p className="mt-6 text-gray-400 text-sm">
-      Professional Headshot
-      <br />
-      Coming Soon
-    </p>
+    
 
   </div>
 
